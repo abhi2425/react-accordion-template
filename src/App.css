@@ -1,0 +1,28 @@
+main {
+  display: grid;
+  grid-template-columns: 25rem 1fr;
+  grid-gap: 0 3.5rem;
+  width: 80vw;
+  max-width: 60vw;
+  margin: 5rem auto;
+  box-shadow: 0 0.5rem 1rem rgba(155, 151, 151, 0.5);
+  padding: 5rem;
+  padding-right: 10rem;
+  border-radius: 1rem;
+  background-color: rgb(11, 9, 20);
+  border: solid rgba(255, 250, 250, 0.404) 1px;
+}
+
+.title h1 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: azure;
+}
+@media screen and (max-width: 780px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
